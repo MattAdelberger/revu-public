@@ -2,6 +2,14 @@
     width: 100% !important;
 }
 
+.page-title {
+    margin-top: 150px;
+}
+
+.flexslider.page-inner, .flexslider.page-inner .slides>li, .flexslider2.page-inner, .flexslider2.page-inner .slides>li {
+    height: 250px;
+}
+
 .probootstrap-main-nav .btn {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -16,4 +24,8 @@
 .probootstrap-header {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+html .cog-row .cog-col:not(td), :root:root:root:root:root .cog-row .cog-col:not(td) {
+    margin-bottom: 2rem !important;
 }
