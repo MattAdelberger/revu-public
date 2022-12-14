@@ -50,3 +50,7 @@ html .cog-page-progress--steps a::before, :root:root:root:root:root .cog-page-pr
 .el-date-editor {
     width: 160px !important;
 }
+
+.el-textarea__inner {
+    height: 150px !important;
+}
