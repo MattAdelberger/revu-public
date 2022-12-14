@@ -7,7 +7,7 @@
 }
 
 .flexslider.page-inner, .flexslider.page-inner .slides>li, .flexslider2.page-inner, .flexslider2.page-inner .slides>li {
-    height: 250px;
+    height: 255px;
 }
 
 .probootstrap-main-nav .btn {
@@ -19,6 +19,7 @@
 
 .probootstrap-logo {
     font-size: 27px;
+    padding-left: 0;
 }
 
 .probootstrap-header {
@@ -26,6 +27,26 @@
     padding-bottom: 20px;
 }
 
+.probootstrap-breadcrumbs {
+    margin-bottom: 5px;
+}
+
 html .cog-row .cog-col:not(td), :root:root:root:root:root .cog-row .cog-col:not(td) {
     margin-bottom: 2rem !important;
+}
+
+html .cog-checkable .el-radio__label, html .cog-checkable .el-checkbox__label, :root:root:root:root:root .cog-checkable .el-radio__label, :root:root:root:root:root .cog-checkable .el-checkbox__label {
+    padding-left: 25px !important;
+}
+
+html .cog-page-progress--steps a::before, :root:root:root:root:root .cog-page-progress--steps a::before {
+    padding-top: 2px;
+}
+
+.el-html .cog-cognito--styled .el-checkbox__inner, :root:root:root:root:root .cog-cognito--styled .el-checkbox__inner {
+    margin-top: 3px;
+}
+
+.el-date-editor {
+    width: 160px !important;
 }
