@@ -1,3 +1,7 @@
+body {
+  height: 100vh;
+}
+
 .search-field {
     width: 100% !important;
 }
