@@ -35,6 +35,12 @@ body {
     margin-bottom: 5px;
 }
 
+.masthead-img {
+    position: absolute;
+    top: -128px;
+    left: 280px; 
+}
+
 html .cog-row .cog-col:not(td), :root:root:root:root:root .cog-row .cog-col:not(td) {
     margin-bottom: 2rem !important;
 }
