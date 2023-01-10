@@ -2,8 +2,8 @@ body {
   height: 100vh;
 }
 
-.search-field {
-    width: 100% !important;
+.probootstrap-home-search .probootstrap-field-group .probootstrap-fields .search-field {
+    width: 100%;
 }
 
 .page-title {
@@ -76,20 +76,25 @@ body {
         left: 130px;
     }
 
+    .probootstrap-home-search .probootstrap-field-group .probootstrap-fields {
+        width: 80%;
+    }
+
+    .probootstrap-home-search .probootstrap-field-group .btn {
+        width: 20%;
+    }
+
     .flexslider {
-        height: 449px;
+        height: 410px;
     }
 
     .probootstrap-home-search-container {
-        padding: 0;
-        margin-top: 60px;
+        margin-top: 20px;
     }
 
     .probootstrap-home-search {
         margin: 0;
         padding: 20px;
-        border-radius: 0;
-        box-shadow: none;
     }
 
     .probootstrap-wrap-banner h1 {
