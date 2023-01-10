@@ -11,7 +11,7 @@ body {
 }
 
 .flexslider {
-    height: 650px;
+    height: 620px;
 }
 
 .probootstrap-wrap-banner h1 {
@@ -19,14 +19,12 @@ body {
     line-height: 3.5rem;
     padding-top: 40px;
     padding-bottom: 20px;
-    padding-left:60px;
     font-weight: bold;
 }
 
 .probootstrap-wrap-banner h2 {
     font-size: 1.2rem;
     font-weight: bold;
-    padding-left:60px;
 }
 
 .probootstrap-main-nav .btn {
@@ -38,6 +36,13 @@ body {
 
 .probootstrap-home-search {
     margin-top: 50px;
+    text-align: left;
+    margin-left: -60px;
+    padding: 30px 60px;
+}
+
+.probootstrap-home-search .heading {
+    font-size: 18px;
 }
 
 .probootstrap-logo {
@@ -58,7 +63,7 @@ body {
     position: absolute;
     top: -160px;
     left: 320px;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 @media screen and (max-width: 768px) {
