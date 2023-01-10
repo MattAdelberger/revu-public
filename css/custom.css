@@ -45,6 +45,10 @@ body {
     font-size: 18px;
 }
 
+.probootstrap-home-search form {
+    margin-bottom: 0;
+}
+
 .probootstrap-logo {
     font-size: 27px;
     padding-left: 0;
@@ -68,9 +72,37 @@ body {
 
 @media screen and (max-width: 768px) {
     .masthead-img {
-        top: 31px;
-        left: -7px;
-        opacity: 20%; 
+        top: -30px;
+        left: 130px;
+    }
+
+    .flexslider {
+        height: 449px;
+    }
+
+    .probootstrap-home-search-container {
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .probootstrap-home-search {
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .probootstrap-wrap-banner h1 {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .probootstrap-wrap-banner h2 {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-top: 0;
     }
 }
 
